@@ -30,7 +30,7 @@ namespace task1._1
                 num = k;
             }
             return num;
-        }
+        }//Добавление элемента в конец массива(списка)
         public void Delete(int del)
         {
             if ((k == 0) && (Str[0] == null))
@@ -59,7 +59,7 @@ namespace task1._1
                 }
                 Console.WriteLine("Элемент удален.");
             }
-        }
+        }//Удаление элемента с определенным индексом из массива(списка)
         public int Search(string ser)
         {
             int ret = -1;
@@ -85,7 +85,7 @@ namespace task1._1
                 ret = -1;
             }
             return ret;
-        }
+        }//Поиск элемента с определенным значением в массиве(списке)
         public void Update(int up, string ch)
         {
             if ((k == 0) && (Str[0] == null))
@@ -101,7 +101,7 @@ namespace task1._1
             {
                 Console.WriteLine("Указанный индекс находится за границами массива или элмент пустой.");
             }
-        }
+        }//Обновление значения элемента массива(списка)
         public void GetAt(int ou)
         {
             if((k == 0) && (Str[0] == null))
@@ -119,6 +119,22 @@ namespace task1._1
             else
             {
                 Console.WriteLine("Элемент под индексом{0}, содержит следующую строку: "+Str[ou], ou);
+            }
+        }//Вывод элемента массива(списка) с определенным индексом
+        public void PrintAll()//Вывод всего массива(списка)
+        {
+            if((k==0)&&(Str[0] == null))
+            {
+                Console.WriteLine("");
+            }
+            else
+            {
+                int x = 1;
+                foreach(string k in Str)
+                {
+                    Console.WriteLine(x+" : "+k);
+                    x++;
+                }
             }
         }
     }
