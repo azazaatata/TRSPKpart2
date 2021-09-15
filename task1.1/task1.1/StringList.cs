@@ -62,7 +62,7 @@ namespace task1._1
         }//Удаление элемента с определенным индексом из массива(списка)
         public int Search(string ser)
         {
-            int ret = -1;
+            int ret = 0;
             bool ok = false;
             if ((k == 0) && (Str[0] == null))
             {
@@ -132,6 +132,7 @@ namespace task1._1
                 int x = 1;
                 foreach(string k in Str)
                 {
+                    if (k == null) { break; }
                     Console.WriteLine(x+" : "+k);
                     x++;
                 }
