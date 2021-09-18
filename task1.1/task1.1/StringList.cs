@@ -33,6 +33,7 @@ namespace task1._1
         }//Добавление элемента в конец массива(списка)
         public void Delete(int del)
         {
+            bool delet = false;
             if ((k == 0) && (Str[0] == null))
             {
                 Console.WriteLine("Массив уже пустой.");
@@ -56,7 +57,11 @@ namespace task1._1
                 {
                     k--;
                     Str[del] = null;
+                    delet = true;
                 }
+            }
+            if (delet == true)
+            {
                 Console.WriteLine("Элемент удален.");
             }
         }//Удаление элемента с определенным индексом из массива(списка)

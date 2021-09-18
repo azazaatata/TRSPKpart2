@@ -20,7 +20,7 @@ namespace task1._1
                 Console.WriteLine("6. Вывести весь массив(список).");
                 Console.WriteLine("7. Exit.");
                 ch = Convert.ToInt32(Console.ReadLine());
-                if(ch == 1)
+                if (ch == 1)
                 {
                     Console.Clear();
                     Console.WriteLine("Введите элемент, который хотите добавить в массив(список):");
@@ -32,17 +32,17 @@ namespace task1._1
                     }
                     else
                     {
-                        Console.WriteLine("Элемент был добавлен в массив. Его индекс : {0}",code);
+                        Console.WriteLine("Элемент был добавлен в массив. Его индекс : {0}", code);
                     }
                 }
-                else if(ch == 2)
+                else if (ch == 2)
                 {
                     Console.Clear();
                     Console.WriteLine("Введите индекс элемента, который хотите удалить: ");
                     int index = Convert.ToInt32(Console.ReadLine());
                     list.Delete(index);
                 }
-                else if(ch == 3)
+                else if (ch == 3)
                 {
                     Console.Clear();
                     Console.WriteLine("Введите текст, который хотите найти в массиве(списке): ");
@@ -52,16 +52,16 @@ namespace task1._1
                     {
                         Console.WriteLine("Массив(список) пустой, заполните его элементами.");
                     }
-                    else if(code == -1)
+                    else if (code == -1)
                     {
                         Console.WriteLine("По заданному тексту, не удалось найти элемент в массиве.");
                     }
                     else
                     {
-                        Console.WriteLine("Элемент найден, его индекс: {0}",code);
+                        Console.WriteLine("Элемент найден, его индекс: {0}", code);
                     }
                 }
-                else if(ch == 4)
+                else if (ch == 4)
                 {
                     Console.Clear();
                     Console.WriteLine("Введите индекс элемента, который хотите изменить: ");
@@ -70,18 +70,26 @@ namespace task1._1
                     string text = Console.ReadLine();
                     list.Update(upd, text);
                 }
-                else if(ch == 5)
+                else if (ch == 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Введите индекс элемента, который хотите вывести: ");
                     int vivod = Convert.ToInt32(Console.ReadLine());
                     list.GetAt(vivod);
                 }
-                else if(ch == 6)
+                else if (ch == 6)
                 {
                     Console.Clear();
                     list.PrintAll();
                 }
+                else if (ch == 7)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Вы ввели число, которого нет в списке.");
+                }    
                 Console.ReadKey();
                 Console.Clear();
             }
