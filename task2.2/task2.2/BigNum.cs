@@ -180,15 +180,25 @@ namespace task2._2
             int mnoj = 1;//переход по разрядам
             int NextDigit = 0;
             string Otv = null;
-            for(int i = 0; i < num[Snum].Length; i++)
+            string Sum1 = null;
+            string Sum2 = null;
+            SecondNum = Convert.ToInt32(num[num[Snum].Length - 1]);
+            for (int i = 0; i <num[Fnum].Length;i++)
+            {
+                FirstNum = Convert.ToInt32(num[num[Fnum].Length - i - 1]);
+                Proiz = ((FirstNum * SecondNum) + NextDigit);
+                NextDigit = Proiz / 10;
+                Sum1.Insert(0, (Proiz%10).ToString());
+            }
+            for(int i = 1; i < num[Snum].Length-1; i++)
             {
                 SecondNum = Convert.ToInt32(num[num[Snum].Length - i - 1]);
                 for (int j = 0; j < num[Fnum].Length; j++)
                 {
                     FirstNum = Convert.ToInt32(num[num[Fnum].Length - i - 1]);
                     Proiz = ((FirstNum * SecondNum) + NextDigit);
-                    Otv.Insert(0, Proiz.ToString());
-                    mnoj *= 10;
+                    Sum2.Insert(0, Proiz.ToString());
+                    Sum1
                 }
             }
         }
