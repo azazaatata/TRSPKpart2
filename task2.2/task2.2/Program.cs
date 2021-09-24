@@ -6,9 +6,12 @@ namespace task2._2
     {
         static void Main(string[] args)
         {
-            string o = "123232";
-            Console.WriteLine("-" + o);
-            BigNum b = new BigNum();
+            string o = "123";
+            string a = "123";
+            if (a == o)
+            {
+                Console.WriteLine("pizda");
+            }
         }
     }
 }
