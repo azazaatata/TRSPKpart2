@@ -6,7 +6,9 @@ namespace task2._2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string o = "123232";
+            Console.WriteLine("-" + o);
+            BigNum b = new BigNum();
         }
     }
 }
