@@ -8,14 +8,13 @@ namespace task2._2
     {
         private string num = null;
         private bool posit = false;
-        int count = 0;
 
         public BigNum()//конструктор элемента класса
         {
             num = "";
             posit = false;
         }
-
+        
         public BigNum(BigNum a)
         {
             num = a.num;
