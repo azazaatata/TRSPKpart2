@@ -1,0 +1,14 @@
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.exe
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.deps.json
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.runtimeconfig.json
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.runtimeconfig.dev.json
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.dll
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\bin\Debug\netcoreapp3.1\task2.2.pdb
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.csproj.AssemblyReference.cache
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.AssemblyInfoInputs.cache
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.AssemblyInfo.cs
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.csproj.CoreCompileInputs.cache
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.dll
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.pdb
+C:\Users\Тарас\Desktop\Учеба\Трпо\TRSPK2pac\task2.2\task2.2\obj\Debug\netcoreapp3.1\task2.2.genruntimeconfig.cache
