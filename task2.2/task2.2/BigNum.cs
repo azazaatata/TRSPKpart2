@@ -21,7 +21,7 @@ namespace task2._2
             posit = a.posit;
         }
 
-        private static bool positCheck(string number)//Проверка на положительное число
+        private bool positCheck(string number)//Проверка на положительное число
         {
             string s =number.Substring(0,2);
             bool pos;
@@ -363,7 +363,7 @@ namespace task2._2
             return otvet;
         }
 
-        public static BigNum StrToBigNum(string stroka)
+        public BigNum StrToBigNum(string stroka)
         {
             BigNum Str = new BigNum();
             string st = stroka;
@@ -372,7 +372,7 @@ namespace task2._2
             return Str;
         }
 
-        public static BigNum StrBuildToBigNum(StringBuilder stroka)
+        public BigNum StrBuildToBigNum(StringBuilder stroka)
         {
             string perevod = stroka.ToString();
             BigNum StrBuild = new BigNum();
@@ -380,10 +380,11 @@ namespace task2._2
             return StrBuild;
         }
 
-        public static bool TryParse(string stroka, out BigNum chislo)
+        public bool TryParse(string stroka, out BigNum chislo)
         {
             string slovar = "-01234567890";
             bool parse = false;
+            BigNum tut = new BigNum();
             if((stroka[0]==slovar[0])|| (stroka[0] == slovar[1]) || (stroka[0] == slovar[2]) || (stroka[0] == slovar[3]) || (stroka[0] == slovar[4]) || (stroka[0] == slovar[5]) || (stroka[0] == slovar[6]) || (stroka[0] == slovar[7]) || (stroka[0] == slovar[8]) || (stroka[0] == slovar[9]) || (stroka[0] == slovar[10]))
             {
                 for(int i = 1; i<stroka.Length;i++)
@@ -404,9 +405,11 @@ namespace task2._2
             }
             if (parse)
             {
-                chislo = StrToBigNum(stroka);
+                tut = StrToBigNum(stroka);
+                chislo = tut;
                 return parse;
             }
+            chislo = tut;
             return parse;
         }
     }
