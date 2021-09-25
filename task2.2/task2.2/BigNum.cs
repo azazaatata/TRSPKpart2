@@ -21,7 +21,7 @@ namespace task2._2
             posit = a.posit;
         }
 
-        private bool positCheck(string number)//Проверка на положительное число
+        private static bool positCheck(string number)//Проверка на положительное число
         {
             string s =number.Substring(0,2);
             bool pos;
@@ -55,6 +55,7 @@ namespace task2._2
             if (posit) { Console.WriteLine(print.num); }
             else { Console.WriteLine("-"+print.num); }
         }
+
         public static BigNum operator +(BigNum num1, BigNum num2)
         {
             string outp = null;
@@ -128,6 +129,11 @@ namespace task2._2
             return otv;
         }
 
+        public static BigNum operator /(BigNum num1, BigNum num2)
+        {
+            return delenie(num1, num2);
+        }
+
         public static bool operator ==(BigNum num1, BigNum num2)
         {
             if ((num1.num == num2.num)&&(num1.posit == num2.posit))
@@ -144,6 +150,58 @@ namespace task2._2
                 return true;
             }
             return false;
+        }
+
+        public static bool operator >(BigNum num1, BigNum num2)
+        {
+            if (((num1.posit) && (!num2.posit)) || (((num1.posit) && (num2.posit))&&(num1.num.Length > num2.num.Length)) || (((!num1.posit) && (!num2.posit)) && (num1.num.Length < num2.num.Length)))
+            {
+                return true;
+            }
+            if ((!num1.posit) && (num2.posit)|| (((num1.posit) && (num2.posit))&&(num1.num.Length < num2.num.Length)) || (((!num1.posit) && (!num2.posit)) && (num1.num.Length > num2.num.Length)))
+            {
+                return false;
+            }
+            int Fnum = 0;
+            int Snum = 0;
+            bool bolshe = false;
+            for(int i = 0; i<num1.num.Length;i++)
+            {
+                Fnum = Convert.ToInt32(num1.num[i]);
+                Snum = Convert.ToInt32(num2.num[i]);
+                if(Fnum>Snum)
+                {
+                    bolshe = true;
+                    break;
+                }
+            }
+            return bolshe;
+        }
+
+        public static bool operator <(BigNum num1, BigNum num2)
+        {
+            if (((num1.posit) && (!num2.posit)) || ((num1.posit) && (num2.posit) && (num1.num.Length > num2.num.Length)) || (((!num1.posit) && (!num2.posit)) && (num1.num.Length < num2.num.Length)))
+            {
+                return false;
+            }
+            if ((!num1.posit) && (num2.posit) || ((num1.posit) && (num2.posit) && (num1.num.Length < num2.num.Length)) || (((!num1.posit) && (!num2.posit)) && (num1.num.Length > num2.num.Length)))
+            {
+                return true;
+            }
+            int Fnum = 0;
+            int Snum = 0;
+            bool bolshe = false;
+            for (int i = 0; i < num1.num.Length; i++)
+            {
+                Fnum = Convert.ToInt32(num1.num[i]);
+                Snum = Convert.ToInt32(num2.num[i]);
+                if (Fnum > Snum)
+                {
+                    bolshe = true;
+                    break;
+                }
+            }
+            return bolshe;
         }
 
         private static string plus(string Fnum, string Snum)//Функция сложения
@@ -226,7 +284,7 @@ namespace task2._2
             return Otv;
         }
 
-        public static string proizv(string Fnum, string Snum)//Функция умножения
+        private static string proizv(string Fnum, string Snum)//Функция умножения
         {
             int FirstNum = 0;
             int SecondNum = 0;
@@ -258,6 +316,68 @@ namespace task2._2
                 Sum1 = plus(Sum1, Sum2);
             }
             return Sum1;
+        }
+
+        private static BigNum delenie(BigNum Fnum, BigNum Snum)
+        {
+            BigNum one = new BigNum();
+            one.num = "1";
+            one.posit = true;
+            BigNum zero = new BigNum();
+            zero.num = "0";
+            one.posit = true;
+            BigNum otvet = new BigNum();
+            otvet.posit = true;
+            BigNum delimoe = new BigNum();
+            BigNum delitel = new BigNum();
+            delitel.num = Snum.num;
+            delitel.posit = Snum.posit;
+            int i = delitel.num.Length;
+            delimoe.num = Fnum.num.Substring(0, delitel.num.Length);
+            delimoe.posit = Fnum.posit;
+            BigNum counter = new BigNum();
+            counter = zero;
+            while (true)
+            {
+                if(delimoe > delitel)
+                {
+                    delimoe = delimoe - delitel;
+                    counter = counter + one;
+                }
+                else if((i < Fnum.num.Length)&&(delimoe < delitel))
+                {
+                    delimoe.num.Insert(delimoe.num.Length, Fnum.num.Substring(i, i + 1));
+                    i++;
+                    otvet.num.Insert(otvet.num.Length, counter.num);
+                    counter = zero;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (((Fnum.posit)&&(!Snum.posit))||((!Fnum.posit)&&(Snum.posit)))
+            {
+                otvet.posit = false;
+            }
+            return otvet;
+        }
+
+        public static BigNum StrToBigNum(string stroka)
+        {
+            BigNum Str = new BigNum();
+            string st = stroka;
+            Str.num = stroka;
+            Str.posit = positCheck(st);
+            return Str;
+        }
+
+        public static BigNum StrBuildToBigNum(StringBuilder stroka)
+        {
+            string perevod = stroka.ToString();
+            BigNum StrBuild = new BigNum();
+            StrBuild = StrToBigNum(perevod);
+            return StrBuild;
         }
     }
 }
