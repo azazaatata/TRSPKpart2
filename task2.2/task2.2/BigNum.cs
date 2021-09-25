@@ -379,5 +379,35 @@ namespace task2._2
             StrBuild = StrToBigNum(perevod);
             return StrBuild;
         }
+
+        public static bool TryParse(string stroka, out BigNum chislo)
+        {
+            string slovar = "-01234567890";
+            bool parse = false;
+            if((stroka[0]==slovar[0])|| (stroka[0] == slovar[1]) || (stroka[0] == slovar[2]) || (stroka[0] == slovar[3]) || (stroka[0] == slovar[4]) || (stroka[0] == slovar[5]) || (stroka[0] == slovar[6]) || (stroka[0] == slovar[7]) || (stroka[0] == slovar[8]) || (stroka[0] == slovar[9]) || (stroka[0] == slovar[10]))
+            {
+                for(int i = 1; i<stroka.Length;i++)
+                {
+                    for(int j = 1; j<slovar.Length; j++)
+                    {
+                        if ((stroka[i] == slovar[1]) || (stroka[i] == slovar[2]) || (stroka[i] == slovar[3]) || (stroka[i] == slovar[4]) || (stroka[i] == slovar[5]) || (stroka[i] == slovar[6]) || (stroka[i] == slovar[7]) || (stroka[i] == slovar[8]) || (stroka[i] == slovar[9]) || (stroka[i] == slovar[10]))
+                        {
+                            parse = true;
+
+                        }
+                        else
+                        {
+                            parse = false;
+                        }
+                    }
+                }
+            }
+            if (parse)
+            {
+                chislo = StrToBigNum(stroka);
+                return parse;
+            }
+            return parse;
+        }
     }
 }
