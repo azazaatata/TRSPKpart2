@@ -360,6 +360,10 @@ namespace task2._2
             {
                 otvet.posit = false;
             }
+            if (otvet.num[0] == zero.num[0])
+            {
+                otvet.num.Remove(0, 1);
+            }
             return otvet;
         }
 
