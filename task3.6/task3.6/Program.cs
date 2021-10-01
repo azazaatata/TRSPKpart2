@@ -4,7 +4,7 @@ namespace task3._6
 {
     class Program
     {
-        static double Pcalc(int[] cordX, int[] cordY)
+        static double Pcalc(double[] cordX, double[] cordY)//Подсчет периметра многоугольника
         {
             double P = Math.Sqrt(Math.Pow((cordX[0] - cordX[cordX.Length - 1]), 2) + Math.Pow((cordY[0] - cordY[cordY.Length - 1]), 2));
             for (int i = 1; i<cordX.Length; i++)
@@ -13,10 +13,10 @@ namespace task3._6
             }
             return P;
         }
-        static double Scalc(int[] cordX, int[] cordY)
+
+        static double Scalc(double[] cordX, double[] cordY)//Подсчет площади многоугольника
         {
             double s = ((cordX[cordX.Length - 1] - cordX[0]) * (cordY[cordY.Length - 1] + cordY[0]));
-            
             for(int i = 0; i < cordX.Length-1; i++)
             {
                 s += ((cordX[i] - cordX[i + 1]) * (cordY[i] + cordY[i + 1]));
@@ -29,7 +29,8 @@ namespace task3._6
             s *= 0.5;
             return s;
         }
-         static bool Ssqr(int[] cordX, int[] cordY, out double S, out double P)
+
+        static bool Ssqr(double[] cordX, double[] cordY, out double S, out double P)//Проверка координат и вызовы функций подсчета
         {
             S = Scalc(cordX, cordY);
             P = Pcalc(cordX, cordY);
@@ -44,26 +45,31 @@ namespace task3._6
                     }
                 }
             }
+            if(S == 0)
+            {
+                cordOk = false;
+            }
             if (cordOk)
             {
                 return true;
             }
             return false;
         }
+        
         static void Main(string[] args)
         {
             int count = 4;
             //Console.WriteLine("Введите количество точек многоугольника: ");
             //count = Convert.ToInt32(Console.ReadLine());
-            int[] cordX = new int[count];
-            int[] cordY = new int[count];
+            double[] cordX = new double[count];
+            double[] cordY = new double[count];
             for(int i = 0; i<cordX.Length; i++)
             {
                 Console.WriteLine("Введите координаты {0} точки:", (i+1));
                 Console.Write("Точка х:");
-                cordX[i] = Convert.ToInt32(Console.ReadLine());
+                cordX[i] = Convert.ToDouble(Console.ReadLine());
                 Console.Write("Точка y:");
-                cordY[i] = Convert.ToInt32(Console.ReadLine());
+                cordY[i] = Convert.ToDouble(Console.ReadLine());
                 Console.Clear();
             }
 
@@ -76,7 +82,7 @@ namespace task3._6
                 return;
             }
 
-            Console.WriteLine("Ты ошибка.");
+            Console.WriteLine("Ты ошибся в координатах.");
         }
     }
 }
