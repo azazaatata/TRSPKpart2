@@ -1,0 +1,14 @@
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.exe
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.deps.json
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.dll
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\bin\Debug\netcoreapp3.1\task3.6.pdb
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.dll
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.pdb
+K:\gitrepos\TRSPK2pac\task3.6\task3.6\obj\Debug\netcoreapp3.1\task3.6.genruntimeconfig.cache

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\task1.1\\task1.1\\task1.1.csproj",
-      "projectName": "task1.1",
-      "projectPath": "K:\\gitrepos\\TRSPK2pac\\task1.1\\task1.1\\task1.1.csproj",
+      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\task3.6\\task3.6\\task3.6.csproj",
+      "projectName": "task3.6",
+      "projectPath": "K:\\gitrepos\\TRSPK2pac\\task3.6\\task3.6\\task3.6.csproj",
       "packagesPath": "C:\\Users\\azaza\\.nuget\\packages\\",
-      "outputPath": "K:\\gitrepos\\TRSPK2pac\\task1.1\\task1.1\\obj\\",
+      "outputPath": "K:\\gitrepos\\TRSPK2pac\\task3.6\\task3.6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "K:\\vssdk\\NuGetPackages",

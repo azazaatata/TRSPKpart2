@@ -323,20 +323,28 @@ namespace task2._2
             BigNum one = new BigNum();
             one.num = "1";
             one.posit = true;
+
             BigNum zero = new BigNum();
             zero.num = "0";
             one.posit = true;
+
             BigNum otvet = new BigNum();
             otvet.posit = true;
+
             BigNum delimoe = new BigNum();
+
             BigNum delitel = new BigNum();
             delitel.num = Snum.num;
             delitel.posit = Snum.posit;
+
             int i = delitel.num.Length;
+
             delimoe.num = Fnum.num.Substring(0, delitel.num.Length);
             delimoe.posit = Fnum.posit;
+
             BigNum counter = new BigNum();
             counter = zero;
+
             while (true)
             {
                 if(delimoe > delitel)
@@ -356,10 +364,12 @@ namespace task2._2
                     break;
                 }
             }
+
             if (((Fnum.posit)&&(!Snum.posit))||((!Fnum.posit)&&(Snum.posit)))
             {
                 otvet.posit = false;
             }
+
             if (otvet.num[0] == zero.num[0])
             {
                 otvet.num.Remove(0, 1);
@@ -370,9 +380,12 @@ namespace task2._2
         public BigNum StrToBigNum(string stroka)
         {
             BigNum Str = new BigNum();
-            string st = stroka;
             Str.num = stroka;
-            Str.posit = positCheck(st);
+            Str.posit = positCheck(stroka);
+            if(!Str.posit)
+            {
+                Str.num.Remove(0, 1);
+            }
             return Str;
         }
 
