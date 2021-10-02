@@ -8,12 +8,7 @@ namespace task_3._1
         {
             Console.WriteLine("Введите количество измерений массива: ");
             int izm = Convert.ToInt32(Console.ReadLine());  //Кол-во измерений
-            int rank = izm;   //Кол-во элементов в измерении
-            /*
-            Console.WriteLine("Введите кол-во элементов измерения: ");
-            rank = Convert.ToInt32(Console.ReadLine()); 
-            */
-            int elem_count = Convert.ToInt32(Math.Pow(rank, izm));
+            int elem_count = Convert.ToInt32(Math.Pow(izm, izm));
             int[] array = new int[elem_count];
 
             int[] MinRange = new int[izm];
@@ -39,7 +34,7 @@ namespace task_3._1
 
                 for (int j = izm - 1; j > 0; j--)
                 {
-                    if ((Index[j] % rank == 0)&&(Index[j] != 0))
+                    if ((Index[j] % izm == 0)&&(Index[j] != 0))
                     {
                         Index[j] = 0;
                         Index[j - 1] += 1;
@@ -63,7 +58,7 @@ namespace task_3._1
                 Index[Index.Length - 1] += 1;
                 for (int j = 1; j < izm; j++)
                 {
-                    if (Index[j] / rank == 1)
+                    if (Index[j] / izm == 1)
                     {
                         Index[j] = 0;
                         Index[j - 1] += 1;
@@ -72,7 +67,7 @@ namespace task_3._1
                 }
                 for (int j = izm - 1; j > 0; j--)
                 {
-                    if ((Index[j] % rank == 0) && (Index[j] != 0))
+                    if ((Index[j] % izm == 0) && (Index[j] != 0))
                     {
                         Index[j] = 0;
                         Index[j - 1] += 1;
