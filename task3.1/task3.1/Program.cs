@@ -14,7 +14,7 @@ namespace task_3._1
             int[] MinRange = new int[izm];
             int[] MaxRange = new int[izm];
 
-            for (int i = 0; i < izm; i++)   //Цикл для введения ограничений для каждого измерения
+            for (int i = 0; i < izm; i++)
             {
                 Console.WriteLine("Введите нижнюю границу для {0} измерения: ", i + 1);
                 MinRange[i] = Convert.ToInt32(Console.ReadLine());
@@ -46,7 +46,7 @@ namespace task_3._1
             {
                 Index[i] = 0;
             }
-            for (int i = 0; i < elem_count; i++)
+            for (int i = 0; i < elem_count; i++)//Вывод массива
             {
 
                 Console.Write("Элемент под индексом ");
