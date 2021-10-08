@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.exe
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.deps.json
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.dll
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\ref\КурсачЗелим.dll
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\bin\Debug\net5.0\КурсачЗелим.pdb
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.dll
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\ref\КурсачЗелим.dll
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.pdb
+K:\gitrepos\TRSPK2pac\КурсачЗелим\КурсачЗелим\obj\Debug\net5.0\КурсачЗелим.genruntimeconfig.cache
