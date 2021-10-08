@@ -17,6 +17,7 @@ namespace task4._5
             public event KeyPressed DigitKeyPressed;
             public event KeyLogger AnyKeyPressed;
 
+
             public void Pressed(char k)
             {
                 AnyKeyPressed(k);
@@ -38,6 +39,7 @@ namespace task4._5
                 Console.WriteLine();
             }
         }
+
 
         class ThreeSubscriber
         {
@@ -64,10 +66,10 @@ namespace task4._5
             }
         }
 
+
         class LogSubscriber
         {
             StreamWriter log = new StreamWriter("C:\\Users\\azaza\\Desktop\\log.txt");
-
             public void AnyPressed(char k)
             {
                 if (k == '-')
@@ -79,6 +81,7 @@ namespace task4._5
                 log.Write(k);
             }
         }
+
 
         static void Main(string[] args)
         {
@@ -100,7 +103,6 @@ namespace task4._5
                 if (key == '-')
                     break;
             }
-
         }
     }
 }
