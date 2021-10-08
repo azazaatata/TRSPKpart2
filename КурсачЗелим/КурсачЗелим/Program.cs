@@ -22,11 +22,12 @@ namespace abc
         static void MonteCarlo(int[] arr)//Сортировка массива методом Монте-Карло
         {
             Random rand = new Random();
-            while(true)
+            int len = rand.Next(0, 40);
+            for(int i = 0; i<arr.Length; i++)
             {
                 int one = rand.Next(0, arr.Length);
                 int two = rand.Next(0, arr.Length);
-                if(one != two)
+                if (one != two)
                 {
                     int temp = arr[one];
                     arr[one] = arr[two];
@@ -39,16 +40,17 @@ namespace abc
                     two = rand.Next(0, arr.Length);
                 }
             }
-            
         }
 
         static void LasVegas(int[] arr)//Сортировка массива методом Лас-Вегаса
         {
             bool OK = false;
+            int UnLag = 0;
             while(!OK)
             {
                 MonteCarlo(arr);
                 OK = Check(arr);
+                Console.WriteLine(UnLag++);
             }
         }
 
@@ -78,9 +80,7 @@ namespace abc
             len = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[len];
             Console.Clear();
-            Console.WriteLine("Как хотите заполнить массив?");
-            Console.WriteLine("1.Рандомно");
-            Console.WriteLine("2.С клавиатуры");
+            Console.WriteLine("Как хотите заполнить массив?\n1.Рандомно\n2.С клавиатуры");
             int ch = Convert.ToInt32(Console.ReadLine());
             if (ch == 1)
                 RandInput(array);
@@ -93,9 +93,7 @@ namespace abc
             }
                 
             Console.Clear();
-            Console.WriteLine("Как хотите отсортировать массив?");
-            Console.WriteLine("1.Методом Монте-Карло");
-            Console.WriteLine("2.Методом Лас-Вегаса");
+            Console.WriteLine("Как хотите отсортировать массив?\n1.Методом Монте-Карло\n2.Методом Лас-Вегаса");
             ch = Convert.ToInt32(Console.ReadLine());
             if (ch == 1)
             {
