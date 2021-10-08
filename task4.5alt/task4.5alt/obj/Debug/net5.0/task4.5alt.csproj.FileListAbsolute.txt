@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.exe
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.deps.json
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.dll
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\ref\task4.5alt.dll
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\bin\Debug\net5.0\task4.5alt.pdb
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.dll
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\ref\task4.5alt.dll
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.pdb
+K:\gitrepos\TRSPK2pac\task4.5alt\task4.5alt\obj\Debug\net5.0\task4.5alt.genruntimeconfig.cache
