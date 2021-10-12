@@ -22,8 +22,7 @@ namespace abc
         static void MonteCarlo(int[] arr)//Сортировка массива методом Монте-Карло
         {
             Random rand = new Random();
-            int len = rand.Next(0, 40);
-            for(int i = 0; i<arr.Length; i++)
+            while (true)
             {
                 int one = rand.Next(0, arr.Length);
                 int two = rand.Next(0, arr.Length);
@@ -106,7 +105,6 @@ namespace abc
                 }
 
             }
-                
             else if (ch == 2)
                 LasVegas(array);
             else
@@ -114,6 +112,7 @@ namespace abc
                 Console.WriteLine("Введено неверное значение");
                 return;
             }
+
             Console.WriteLine("Массив после выполнения алгоритма:");
             PrintArr(array);
             Console.WriteLine("Спасибо за использование нашей программы.");
