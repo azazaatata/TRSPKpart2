@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "K:\\gitrepos\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj": {}
+    "C:\\Users\\Тарас\\Desktop\\Учеба\\Трпо\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj": {}
   },
   "projects": {
-    "K:\\gitrepos\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj": {
+    "C:\\Users\\Тарас\\Desktop\\Учеба\\Трпо\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj",
+        "projectUniqueName": "C:\\Users\\Тарас\\Desktop\\Учеба\\Трпо\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj",
         "projectName": "КурсачЗелим",
-        "projectPath": "K:\\gitrepos\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj",
-        "packagesPath": "C:\\Users\\azaza\\.nuget\\packages\\",
-        "outputPath": "K:\\gitrepos\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\obj\\",
+        "projectPath": "C:\\Users\\Тарас\\Desktop\\Учеба\\Трпо\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\КурсачЗелим.csproj",
+        "packagesPath": "C:\\Users\\Тарас\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Тарас\\Desktop\\Учеба\\Трпо\\TRSPK2pac\\КурсачЗелим\\КурсачЗелим\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "K:\\vssdk\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\azaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Тарас\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -60,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
