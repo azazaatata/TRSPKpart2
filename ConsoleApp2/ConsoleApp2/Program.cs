@@ -23,36 +23,7 @@ class Program
     private static void TellAboutWeek(int mb)
     {
 	    Week output;
-        switch (mb)
-        {
-            case 1:
-	            output = Week.p1;
-                Console.WriteLine(output);
-                break;
-            case 2:
-	            output = Week.v2;
-                Console.WriteLine(output);
-                break;
-            case 3:
-	            output = Week.s3;
-                Console.WriteLine(output);
-                break;
-            case 4:
-	            output = Week.ch4;
-                Console.WriteLine(output);
-                break;
-            case 5:
-	            output = Week.p5;
-                Console.WriteLine(output);
-                break;
-            case 6:
-	            output = Week.s6;
-                Console.WriteLine(output);
-                break;
-            case 7:
-	            output = Week.v7;
-                Console.WriteLine(output);
-                break;
-        }
+	    output = (Week) mb;
+	    Console.WriteLine(output);
     }
 }
