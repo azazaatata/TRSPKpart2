@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.exe
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.deps.json
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.dll
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ref\ConsoleApp2.dll
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.pdb
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.dll
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp2.dll
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.pdb
+K:\gitrepos\TRSPK2pac\ConsoleApp2\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.genruntimeconfig.cache

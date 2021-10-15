@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\gitrepos\\TRSPK2pac\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "K:\\gitrepos\\TRSPK2pac\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "K:\\gitrepos\\TRSPK2pac\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "K:\\gitrepos\\TRSPK2pac\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\azaza\\.nuget\\packages\\",
-        "outputPath": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "K:\\gitrepos\\TRSPK2pac\\ConsoleApp2\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "K:\\vssdk\\NuGetPackages",
@@ -32,7 +32,7 @@
         },
         "frameworks": {
           "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -44,7 +44,7 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
