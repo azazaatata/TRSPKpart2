@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.exe
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.deps.json
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.dll
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\ref\LabRab.dll
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\bin\Debug\net5.0\LabRab.pdb
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.dll
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\ref\LabRab.dll
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.pdb
+K:\gitrepos\TRSPK2pac\LabRab\LabRab\obj\Debug\net5.0\LabRab.genruntimeconfig.cache

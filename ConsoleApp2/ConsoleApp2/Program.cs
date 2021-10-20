@@ -1,29 +1,38 @@
 ﻿using System;
+using System.ComponentModel;
 
-enum Week
+namespace _6._4
 {
-    p1 = 1,
-    v2,
-    s3,
-    ch4,
-    p5,
-    s6,
-    v7
-};
-class Program
-{
+	[Flags]
+	public enum Numbers
+	{
+		One = 1,
+		Two = 2,
+		Three = 4,
+		Four = 8,
+		Five = 16,
+		Six = 32,
+	}
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			var enums = (Numbers.One | Numbers.Two | Numbers.Three |
+			             Numbers.Four | Numbers.Five | Numbers.Six).ToString();
 
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Введите число(от 1 до 7): ");
-        int mb = Convert.ToInt32(Console.ReadLine());
-        TellAboutWeek(mb);
+			Console.Write("Перечисление: ");
+			Console.WriteLine(enums);
 
-    }
-    private static void TellAboutWeek(int mb)
-    {
-	    Week output;
-	    output = (Week) mb;
-	    Console.WriteLine(output);
-    }
+			Console.WriteLine("Введите число, которое хотите представить в двоичной системе(от 0 до 63):");
+			var inp = Console.ReadLine();
+			int check = Convert.ToInt32(inp);
+			if (check < 0 || check > 63)
+			{
+				Console.WriteLine("Ошибка");
+				return;
+			}
+			Console.WriteLine("Программа выведет разряды в которых должна стоять единица");
+			Console.WriteLine(Enum.Parse(typeof(Numbers),inp).ToString());
+		}
+	}
 }
