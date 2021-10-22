@@ -105,6 +105,10 @@ namespace LabRab
 				PrintTrain();
 		}
 
+		public int GetIdRoute()
+		{
+			return IdRoute;
+		}
 		public string RetStr()
 		{
 			string temp = Convert.ToString(DirectionId);
@@ -397,6 +401,12 @@ namespace LabRab
 			return false;
 		}
 
+		public int TripIdCheck(int i)
+		{
+			return TripId;
+		}
+
+		
 		public string RetStr()
 		{
 			string str = "*";
@@ -416,6 +426,7 @@ namespace LabRab
 			str = str.Insert(str.Length, temp);
 			return str;
 		}
+
 	}
 	//Класс хранения информации о маршрутах
 	class Route
@@ -495,6 +506,12 @@ namespace LabRab
 			}
 			return false;
 		}
+
+		public int GetDirId()
+		{
+			return DirId;
+		}
+
 
 		public string RetStr()
 		{
@@ -1015,11 +1032,6 @@ namespace LabRab
 			Array.Resize(ref directions, directions.Length + 1);
 		}
 
-		static void AddOneElemPass(Passenger[] passengers)
-		{
-			Array.Resize(ref passengers, passengers.Length+1);
-		}
-
 		static void AddOneElemTicket(Ticket[] tickets)
 		{
 			Array.Resize(ref tickets, tickets.Length + 1);
@@ -1274,16 +1286,29 @@ namespace LabRab
 		}
 
 		//Удаление элемента из массива объектов класса
-		static void RemoveTrip(Trip[] trips, int id)
+		static void RemoveTrip(Trip[] trips, int id, Ticket[] tickets)
 		{
 			for (int i = id; i < trips.Length-1; i++)
 			{
 				trips[i] = trips[i + 1];
 			}
 			Array.Resize(ref trips, trips.Length-1);
+			int k = 0;
+			for (int i = 0; i < tickets.Length; i++)
+			{
+				if (tickets[i].TripIdCheck(id))
+				{
+					k++;
+					for (int j = i; j < tickets.Length-1; j++)
+					{
+						tickets[i] = tickets[i + 1];
+					}
+				}
+			}
+			Array.Resize(ref tickets, tickets.Length-k);
 		}
 
-		static void RemoveStation(Station[][] stations, int id1, int id2)
+		static void RemoveStation(Station[][] stations, int id1, int id2, Ticket[] tickets, Route[] routes)
 		{
 			for (int i = id2; i < stations[id1].Length-1; i++)
 			{
