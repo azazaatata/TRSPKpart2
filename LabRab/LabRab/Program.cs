@@ -9,9 +9,10 @@ using Microsoft.VisualBasic.CompilerServices;
 
 namespace LabRab
 {
+	//Класс хранения информации о поездках
 	class Trip
 	{
-		//*routeid*startstation*finishstation*month*day*timestarthours*timestartminute
+		//*DI*TSN*IR*M*D*TSH*TSM
 		public int DirectionId { get; set; }
 		int TrainSerialNum { get; set; }
 		int IdRoute { get; set; }
@@ -130,11 +131,11 @@ namespace LabRab
 			return str;
 		}
 	}
-
+	//Класс хранения информации о станциях
 	class Station
     {
-		//*name*routeid
-		string Name { get; set; }
+		//*name*dirid
+	    string Name { get; set; }
 		int DirId { get; set; }
 
 		public void AddElem(string name, int DI)
@@ -199,7 +200,7 @@ namespace LabRab
 			return str;
 		}
 	}
-
+	//Класс хранения информации о направлениях
 	class Direction
 	{
 		//*name
@@ -239,10 +240,10 @@ namespace LabRab
 			return str;
 		}
 	}
-
+	//Класс хранения информации о пассажирах
 	class Passenger
     {
-	    //*firstname*secondname*age
+		//*FN*SN*AGE
 	    string FirstName { get; set; }
 	    string SecondName { get; set; }
 		int Age { get; set; }
@@ -303,10 +304,10 @@ namespace LabRab
 			return str;
 		}
 	}
-
+	//Класс хранения информации о билетах
 	class Ticket
     {
-		//*
+	    //*PI*RI*STST*FS*TI
 	    int PassId { get; set; }
 	    int RouteId { get; set; }
 		int StartStation { get; set; }
@@ -416,9 +417,10 @@ namespace LabRab
 			return str;
 		}
 	}
-
+	//Класс хранения информации о маршрутах
 	class Route
 	{
+		//*DI*STST*FS
 		int DirId { get; set; }
 		int StartStation { get; set; }
 		int FinishStation { get; set; }
@@ -508,6 +510,8 @@ namespace LabRab
 			return str;
 		}
 	}
+
+
 
 	class Program
 	{
@@ -1503,7 +1507,7 @@ namespace LabRab
 			sw.Close();
 		}
 
-
+		//Меню
 		static void menu(Trip[] trips, Station[] stations, Direction[] directions, Passenger[] passengers, Ticket[] tickets, Route[] routes, int[] counts)
 		{
 			Station[][] Nstations = new Station[directions.Length][];
@@ -1600,14 +1604,12 @@ namespace LabRab
 
 			Trip[] trips = new Trip[counts[0]];
 			Station[] stations = new Station[counts[1]];
-			Direction[] routes = new Direction[counts[2]];
+			Direction[] directions = new Direction[counts[2]];
 			Passenger[] passengers = new Passenger[counts[3]];
 			Ticket[] tickets = new Ticket[counts[4]];
-			Route[] marsh = new Route[counts[5]];
-			Station[][] RouStat = new Station[counts[2]][];
-			//ReadingArraysInfo(passengers, stations, directions, passengers, tickets, counts);
+			Route[] routes = new Route[counts[5]];
 
-			
+			menu(trips, stations, directions, passengers, tickets, routes, counts);
 		}
 	}
 }
