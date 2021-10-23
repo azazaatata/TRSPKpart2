@@ -13,7 +13,7 @@ namespace LabRab
 	class Trip
 	{
 		//*DI*TSN*IR*M*D*TSH*TSM
-		public int DirectionId { get; set; }
+		public int DirectionId;
 		int TrainSerialNum { get; set; }
 		int IdRoute { get; set; }
 		public int Month { get; set; }
@@ -535,7 +535,7 @@ namespace LabRab
 		//Чтение данных из файлов
 		static void ReadingArraysInfo(Trip[] trips, Station[] stations, Direction[] directions, Passenger[] passengers, Ticket[] tickets, Route[] routes, int[] counts)
         {
-			FileStream file1 = new FileStream("C:\\Laborat\\Train.txt", FileMode.Open); //создаем файловый поток
+			FileStream file1 = new FileStream("C:\\Laborat\\Trip.txt", FileMode.Open); //создаем файловый поток
 			StreamReader reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
 			string str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
@@ -1069,7 +1069,7 @@ namespace LabRab
 			AddOneElemDirection(directions);
 			Direction newElem = new Direction();
 			newElem.AddElem(name);
-			directions[directions.Length - 1] = newElem;
+			directions[directions.Length-1] = newElem;
 		}
 
 		static void AddPass(Passenger[] passengers, string name1, string name2, int age)
@@ -1133,7 +1133,7 @@ namespace LabRab
 
 					Console.WriteLine("Введите номер месяца: ");
 					in4 = Convert.ToInt32(Console.ReadLine());
-					if ((in4 > 12)||(in4<1))
+					if ((in4 >= 12)||(in4<1))
 					{
 						Console.WriteLine("Ошибка");
 						break;
@@ -1286,29 +1286,16 @@ namespace LabRab
 		}
 
 		//Удаление элемента из массива объектов класса
-		static void RemoveTrip(Trip[] trips, int id, Ticket[] tickets)
+		static void RemoveTrip(Trip[] trips, int id)
 		{
 			for (int i = id; i < trips.Length-1; i++)
 			{
 				trips[i] = trips[i + 1];
 			}
 			Array.Resize(ref trips, trips.Length-1);
-			int k = 0;
-			for (int i = 0; i < tickets.Length; i++)
-			{
-				if (tickets[i].TripIdCheck(id))
-				{
-					k++;
-					for (int j = i; j < tickets.Length-1; j++)
-					{
-						tickets[i] = tickets[i + 1];
-					}
-				}
-			}
-			Array.Resize(ref tickets, tickets.Length-k);
 		}
 
-		static void RemoveStation(Station[][] stations, int id1, int id2, Ticket[] tickets, Route[] routes)
+		static void RemoveStation(Station[][] stations, int id1, int id2)
 		{
 			for (int i = id2; i < stations[id1].Length-1; i++)
 			{
@@ -1483,10 +1470,11 @@ namespace LabRab
 			{
 				str = str.Insert(str.Length, Convert.ToString(count[i]));
 				sw.WriteLine(str);
+				str = "";
 			}
 			sw.Close();
 
-			sw = new StreamWriter("C:\\Laborat\\Stations.txt", false);
+			sw = new StreamWriter("C:\\Laborat\\Station.txt", false);
 			str = "";
 			for (int i = 0; i < directions.Length; i++)
 			{
@@ -1498,7 +1486,7 @@ namespace LabRab
 			}
 			sw.Close();
 
-			sw = new StreamWriter("C:\\Laborat\\Directions.txt", false);
+			sw = new StreamWriter("C:\\Laborat\\Direction.txt", false);
 			str = "";
 			for (int i = 0; i < directions.Length; i++)
 			{
@@ -1507,7 +1495,7 @@ namespace LabRab
 			}
 			sw.Close();
 
-			sw = new StreamWriter("C:\\Laborat\\Passengers.txt", false);
+			sw = new StreamWriter("C:\\Laborat\\Passenger.txt", false);
 			for (int i = 0; i < passengers.Length; i++)
 			{
 				str = passengers[i].RetStr();
@@ -1523,7 +1511,7 @@ namespace LabRab
 			}
 			sw.Close();
 
-			sw = new StreamWriter("C:\\Laborat\\Route.txt", false);
+			sw = new StreamWriter("C:\\Laborat\\Routes.txt", false);
 			for (int i = 0; i < routes.Length; i++)
 			{
 				str = routes[i].RetStr();
@@ -1536,18 +1524,6 @@ namespace LabRab
 		static void menu(Trip[] trips, Station[] stations, Direction[] directions, Passenger[] passengers, Ticket[] tickets, Route[] routes, int[] counts)
 		{
 			Station[][] Nstations = new Station[directions.Length][];
-			int k = 0;
-			for (int j = 0; j < directions.Length; j++)
-			{
-				for (int i = 0; i < stations.Length; i++)
-				{
-					if (stations[i].StatIn(j))
-						k++;
-				}
-				Nstations[j] = new Station[k];
-				k = 0;
-			}
-			ConvertArrToArrArr(counts, stations, Nstations);
 			bool exit = false;
 			while (!exit)
 			{
@@ -1570,6 +1546,18 @@ namespace LabRab
 					case 1:
 						ReadingArraysInfo(trips, stations, directions, passengers, tickets, routes, counts);
 						Console.WriteLine("Готово");
+						int k = 0;
+						for (int j = 0; j < directions.Length; j++)
+						{
+							for (int i = 0; i < stations.Length; i++)
+							{
+								if (stations[i].StatIn(j))
+									k++;
+							}
+							Nstations[j] = new Station[k];
+							k = 0;
+						}
+						ConvertArrToArrArr(counts, stations, Nstations);
 						break;
 					case 2:
 						PrintAllInfo(trips, Nstations, directions, passengers, tickets, routes, counts);
