@@ -3,6 +3,7 @@ using System.IO;
 
 namespace Train_Lab
 {
+
 	public class Trip
 	{
 		public int DirectionId;
@@ -79,6 +80,7 @@ namespace Train_Lab
 			TimeStartMinutes = Convert.ToInt32(conv);
 
 		}
+
 		public string RetStr()
 		{
 			string temp = Convert.ToString(DirectionId);
@@ -438,10 +440,10 @@ namespace Train_Lab
 		//Чтение данных из файлов
 		public static void ReadingArraysInfo(Trip[] trips, Station[] stations, Direction[] directions, Passenger[] passengers, Ticket[] tickets, Route[] routes, int[] counts)
 		{
-			FileStream file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Trip.txt", FileMode.Open); //создаем файловый поток
+			FileStream file1 = new FileStream("C:\\Laborat\\Trip.txt", FileMode.Open); //создаем файловый поток
 			StreamReader reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			string str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			string read;
 			for (int i = 0; i < counts[0]; i++)
 			{
@@ -453,10 +455,10 @@ namespace Train_Lab
 
 
 
-			file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Station.txt", FileMode.Open); //создаем файловый поток
+			file1 = new FileStream("C:\\Laborat\\Station.txt", FileMode.Open); //создаем файловый поток
 			reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			for (int i = 0; i < counts[1]; i++)
 			{
 				read = reader.ReadLine();
@@ -467,10 +469,10 @@ namespace Train_Lab
 
 
 
-			file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Direction.txt", FileMode.Open); //создаем файловый поток
+			file1 = new FileStream("C:\\Laborat\\Direction.txt", FileMode.Open); //создаем файловый поток
 			reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			for (int i = 0; i < counts[2]; i++)
 			{
 				read = reader.ReadLine();
@@ -481,10 +483,10 @@ namespace Train_Lab
 
 
 
-			file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Passenger.txt", FileMode.Open); //создаем файловый поток
+			file1 = new FileStream("C:\\Laborat\\Passenger.txt", FileMode.Open); //создаем файловый поток
 			reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			for (int i = 0; i < counts[3]; i++)
 			{
 				read = reader.ReadLine();
@@ -493,10 +495,10 @@ namespace Train_Lab
 
 			reader.Close(); //закрываем поток
 
-			file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Ticket.txt", FileMode.Open); //создаем файловый поток
+			file1 = new FileStream("C:\\Laborat\\Ticket.txt", FileMode.Open); //создаем файловый поток
 			reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			for (int i = 0; i < counts[4]; i++)
 			{
 				read = reader.ReadLine();
@@ -505,10 +507,10 @@ namespace Train_Lab
 
 			reader.Close(); //закрываем поток
 
-			file1 = new FileStream("/home/edgar/Lab_C#/Laborat.data/Routes.txt", FileMode.Open); //создаем файловый поток
+			file1 = new FileStream("C:\\Laborat\\Routes.txt", FileMode.Open); //создаем файловый поток
 			reader = new StreamReader(file1); // создаем «потоковый читатель» и связываем его с файловым потоком
 
-			str1 = reader.ReadLine(); //считываем все данные с потока и выводим на экран
+			
 			for (int i = 0; i < counts[5]; i++)
 			{
 				read = reader.ReadLine();

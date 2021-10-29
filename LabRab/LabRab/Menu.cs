@@ -255,12 +255,12 @@ namespace Train_Lab
 			Console.WriteLine("\n");
 
 			Console.WriteLine("СТАНЦИИ:");
-			for (int j = 0; j < counts[1]; j++)
+			for (int j = 0; j < counts[2]; j++)
 			{
-				Console.WriteLine("Направление {0}:", j);
-				for (int i = 0; i < counts[1]; i++)
+				Console.WriteLine("Направление {0}:", j+1);
+				for (int i = 0; i < RouStat[j].Length; i++)
 				{
-					Console.WriteLine("{0} станция:", i);
+					Console.WriteLine("{0} станция:", i+1);
 					PrintStation(RouStat[j][i]);
 				}
 			}
