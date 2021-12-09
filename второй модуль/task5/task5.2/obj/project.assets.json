@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5\\task5.1.csproj",
-      "projectName": "task5.1",
-      "projectPath": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5\\task5.1.csproj",
+      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5.2\\task5.2.csproj",
+      "projectName": "task5.2",
+      "projectPath": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5.2\\task5.2.csproj",
       "packagesPath": "C:\\Users\\azaza\\.nuget\\packages\\",
-      "outputPath": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5\\obj\\",
+      "outputPath": "K:\\gitrepos\\TRSPK2pac\\второй модуль\\task5\\task5.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "K:\\vssdk\\NuGetPackages"

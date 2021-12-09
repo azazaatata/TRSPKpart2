@@ -22,7 +22,7 @@ namespace task5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите номер до какого поколения хотите довести объект: ");
+            Console.WriteLine("Введите номер до какого поколения хотите довести объект(максимальное поколение 2): ");
             int k = Convert.ToInt32(Console.ReadLine());
             k++;
             if (k > 3)
