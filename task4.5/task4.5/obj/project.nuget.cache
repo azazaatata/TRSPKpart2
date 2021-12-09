@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "h1YitceCYZDB/Erh/qCfDVluIXabQKdz7G9YGMoFgWQXeD6NoenDrE9OPU5o1MPwZCKEm86YuKzynvGwCeeTWw==",
+  "dgSpecHash": "oDjofTkwc9/LHcO+R0SLx+Eo7U3eeI+AgB9o1vdBcTN+zssticfphxu6K0imp0u/jcwO0U8QgbYuhNCSRBX+kQ==",
   "success": true,
   "projectFilePath": "K:\\gitrepos\\TRSPK2pac\\task4.5\\task4.5\\task4.5.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\azaza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\azaza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\azaza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\azaza\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

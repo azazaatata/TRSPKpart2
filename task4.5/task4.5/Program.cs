@@ -79,9 +79,9 @@ namespace task4._5
     {
         static void Main(string[] args)
         {
-            KeyboardManager k = new();
+            KeyboardManager k = new KeyboardManager();
             char key;
-            ThreeSubscriber ThSu = new();
+            ThreeSubscriber ThSu = new ThreeSubscriber();
 
         }
     }
