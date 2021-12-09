@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.exe
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.deps.json
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.dll
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\ref\task5.dll
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\bin\Debug\net5.0\task5.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.dll
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\ref\task5.dll
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\task5\task5\obj\Debug\net5.0\task5.genruntimeconfig.cache
