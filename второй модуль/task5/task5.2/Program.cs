@@ -3,28 +3,20 @@ using System.IO;
 
 namespace task5._2
 {
-    class Trash
-    {
-        static public bool[] oneByte;
-        public Trash(int k)
-        {
-            oneByte = new bool[k];
-        }
-    }
     internal class Program
     {
         static void ChooseSize()
         {
+            int count = 0;
             while(true)
             {
-                Console.WriteLine("Введите размер в байтах для создаваемой переменной(если хотите выйти введите 0) : ");
-                int count = Convert.ToInt32(Console.ReadLine());
-                if(count == 0)
+                count++;
+                Console.WriteLine("Размер переменной в байтах: {0}",count);
+                bool[] trash = new bool[count];
+                int gen = GC.GetGeneration(trash);
+                Console.WriteLine("Поколение созданной переменной: {0}", gen);
+                if (gen == 2)
                     break;
-
-                Trash check = new Trash(count);
-                int gen = GC.GetGeneration(Trash.oneByte);
-                Console.WriteLine("Поколение созданной переменной: ");
             }
         }
         static void BigTrash()
@@ -46,7 +38,13 @@ namespace task5._2
         }
         static void Main(string[] args)
         {
-            BigTrash();
+            Console.WriteLine("Выберите абзац:");
+            int choose = Convert.ToInt32(Console.ReadLine());
+            if (choose == 1)
+                ChooseSize();
+            else if(choose == 2)
+                BigTrash();
+            
         }
     }
 }

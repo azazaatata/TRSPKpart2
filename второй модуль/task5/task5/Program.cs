@@ -93,17 +93,11 @@ namespace task5
             Console.WriteLine("Какой из абзацев выполнить?");
             int choose = Convert.ToInt32(Console.ReadLine());
             if(choose == 1)
-            {
                 Punkt1();
-            }
             else if(choose == 2)
-            {
                 Punkt2();
-            }
-            else
-            {
+            else if(choose == 3)
                 Punkt3();
-            }
         }
     }
 }
