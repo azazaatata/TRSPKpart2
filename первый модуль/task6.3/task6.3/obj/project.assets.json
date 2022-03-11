@@ -9,27 +9,24 @@
   },
   "packageFolders": {
     "C:\\Users\\azaza\\.nuget\\packages\\": {},
-    "K:\\vssdk\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "K:\\vssdk\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\task6.3\\task6.3\\task6.3.csproj",
+      "projectUniqueName": "K:\\gitrepos\\TRSPK2pac\\первый модуль\\task6.3\\task6.3\\task6.3.csproj",
       "projectName": "task6.3",
-      "projectPath": "K:\\gitrepos\\TRSPK2pac\\task6.3\\task6.3\\task6.3.csproj",
+      "projectPath": "K:\\gitrepos\\TRSPK2pac\\первый модуль\\task6.3\\task6.3\\task6.3.csproj",
       "packagesPath": "C:\\Users\\azaza\\.nuget\\packages\\",
-      "outputPath": "K:\\gitrepos\\TRSPK2pac\\task6.3\\task6.3\\obj\\",
+      "outputPath": "K:\\gitrepos\\TRSPK2pac\\первый модуль\\task6.3\\task6.3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "K:\\vssdk\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "K:\\vssdk\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\azaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -68,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

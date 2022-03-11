@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.exe
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.deps.json
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.dll
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ref\ExamTRSPK.dll
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\bin\Debug\net5.0\ExamTRSPK.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.dll
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ref\ExamTRSPK.dll
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\ExamTRSPK\ExamTRSPK\obj\Debug\net5.0\ExamTRSPK.genruntimeconfig.cache

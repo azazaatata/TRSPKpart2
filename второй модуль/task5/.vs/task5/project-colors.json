@@ -10,7 +10,17 @@
       "ProjectGuid": "830ff6a3-ccf8-4cef-8fbe-ec38899f2908",
       "DisplayName": "task5.2",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "370bc333-ff21-46f1-93d2-bc5e2ec78b38": {
+      "ProjectGuid": "370bc333-ff21-46f1-93d2-bc5e2ec78b38",
+      "DisplayName": "task5.3",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
