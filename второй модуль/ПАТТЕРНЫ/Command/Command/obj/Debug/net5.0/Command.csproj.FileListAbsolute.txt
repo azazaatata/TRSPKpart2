@@ -1,0 +1,16 @@
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.exe
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.deps.json
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.runtimeconfig.json
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.runtimeconfig.dev.json
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.dll
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\ref\Command.dll
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\bin\Debug\net5.0\Command.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.csproj.AssemblyReference.cache
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.GeneratedMSBuildEditorConfig.editorconfig
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.AssemblyInfoInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.AssemblyInfo.cs
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.csproj.CoreCompileInputs.cache
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.dll
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\ref\Command.dll
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.pdb
+K:\gitrepos\TRSPK2pac\второй модуль\Command\Command\obj\Debug\net5.0\Command.genruntimeconfig.cache
